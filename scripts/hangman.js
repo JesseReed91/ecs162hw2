@@ -118,7 +118,7 @@ function updateStatusHTML(guesses, word) {
     letterButtons.forEach((button) => (button.disabled = true));
   } else if (guesses < 6) {
     document.getElementById("status").innerHTML =
-      "Number of guesses remaining: " + (6 - guesses);
+      "Remaining Guesses: " + (6 - guesses);
   } else if (guesses === 6) {
     document.getElementById("status").innerHTML = "You lose! The word was:";
     document.getElementById("word").innerHTML = word;
