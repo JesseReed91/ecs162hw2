@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4 - Jesse's Arcade</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/hangman.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="../index.html">Jesse's Arcade</a></h1>
+    </header>
+    <h2>Hangman</h2>
+    <div id="gameContainer">
+        <img id="hangman" src="../img/hangman/hang0.png" alt="Hangman 0" />   
+        <h3 id="status">Remaining Guesses: 6</h3>
+        <div id="word"></div>
+        <div id="letterContainer">
+              <button class="letterGuess" char-letter="a">A</button>
+              <button class="letterGuess" char-letter="b">B</button>
+              <button class="letterGuess" char-letter="c">C</button>
+              <button class="letterGuess" char-letter="d">D</button>
+              <button class="letterGuess" char-letter="e">E</button>
+              <button class="letterGuess" char-letter="f">F</button>
+              <button class="letterGuess" char-letter="g">G</button>
+              <button class="letterGuess" char-letter="h">H</button>
+              <button class="letterGuess" char-letter="i">I</button>
+              <button class="letterGuess" char-letter="j">J</button>
+              <button class="letterGuess" char-letter="k">K</button>
+              <button class="letterGuess" char-letter="l">L</button>
+              <button class="letterGuess" char-letter="m">M</button>
+              <button class="letterGuess" char-letter="n">N</button>
+              <button class="letterGuess" char-letter="o">O</button>
+              <button class="letterGuess" char-letter="p">P</button>
+              <button class="letterGuess" char-letter="q">Q</button>
+              <button class="letterGuess" char-letter="r">R</button>
+              <button class="letterGuess" char-letter="s">S</button>
+              <button class="letterGuess" char-letter="t">T</button>
+              <button class="letterGuess" char-letter="u">U</button>
+              <button class="letterGuess" char-letter="v">V</button>
+              <button class="letterGuess" char-letter="w">W</button>
+              <button class="letterGuess" char-letter="x">X</button>
+              <button class="letterGuess" char-letter="y">Y</button>
+              <button class="letterGuess" char-letter="z">Z</button>
+        </div>
+        <button id="newGame" onclick="restartGame()">New Game</button>
+    </div>
+  </div>
+    <script src="../scripts/hangman.js"></script>
+    <footer>
+      <p>© 2024 Jesse Reed</p>
+  </body>
+</html>

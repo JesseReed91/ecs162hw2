@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+input {
+  font-size: 72px;
+  max-width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  height: 120px;
+  color: white;
+  font-size: 22px;
+  border: 6px solid #000000;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}
+
+p span {
+  font-size: 96px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+.controls {
+  position: relative;
+  margin: 0 auto;
+  width: 270px;
+}
+
+.hide {
+  display: none; /* default value that is changed via javascript */
+}
+
+#response {
+  color: #ff6666;
+}
+
+#start {
+  background-color: #00f8a0;
+  border-color: #00f8a0;
+}
+
+#stop {
+  background-color: #ff6666;
+  border-color: #ff6666;
+  margin-top: 40px;
+}
+
+/* making the page responsive */
+@media (max-width: 600px) {
+  .container {
+    width: 75%;
+  }
+
+  .controls {
+    width: 75%;
+  }
+  p {
+    font-size: 10px;
+  }
+}

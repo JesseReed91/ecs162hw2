@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4 - Jesse's Arcade</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/connect4.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="../index.html">Jesse's Arcade</a></h1>
+    </header>
+    <h2>Connect 4</h2>
+    <h3 id="invalidMove"></h3>
+    <div id="gameContainer">
+        <div id="board">
+            <!-- Creating 42 cells for the Connect 4 grid -->
+            <button class="position" data-position-index="0"></button>
+            <button class="position" data-position-index="1"></button>
+            <button class="position" data-position-index="2"></button>
+            <button class="position" data-position-index="3"></button>
+            <button class="position" data-position-index="4"></button>
+            <button class="position" data-position-index="5"></button>
+            <button class="position" data-position-index="6"></button>
+            <button class="position" data-position-index="7"></button>
+            <button class="position" data-position-index="8"></button>
+            <button class="position" data-position-index="9"></button>
+            <button class="position" data-position-index="10"></button>
+            <button class="position" data-position-index="11"></button>
+            <button class="position" data-position-index="12"></button>
+            <button class="position" data-position-index="13"></button>
+            <button class="position" data-position-index="14"></button>
+            <button class="position" data-position-index="15"></button>
+            <button class="position" data-position-index="16"></button>
+            <button class="position" data-position-index="17"></button>
+            <button class="position" data-position-index="18"></button>
+            <button class="position" data-position-index="19"></button>
+            <button class="position" data-position-index="20"></button>
+            <button class="position" data-position-index="21"></button>
+            <button class="position" data-position-index="22"></button>
+            <button class="position" data-position-index="23"></button>
+            <button class="position" data-position-index="24"></button>
+            <button class="position" data-position-index="25"></button>
+            <button class="position" data-position-index="26"></button>
+            <button class="position" data-position-index="27"></button>
+            <button class="position" data-position-index="28"></button>
+            <button class="position" data-position-index="29"></button>
+            <button class="position" data-position-index="30"></button>
+            <button class="position" data-position-index="31"></button>
+            <button class="position" data-position-index="32"></button>
+            <button class="position" data-position-index="33"></button>
+            <button class="position" data-position-index="34"></button>
+            <button class="position" data-position-index="35"></button>
+            <button class="position" data-position-index="36"></button>
+            <button class="position" data-position-index="37"></button>
+            <button class="position" data-position-index="38"></button>
+            <button class="position" data-position-index="39"></button>
+            <button class="position" data-position-index="40"></button>
+            <button class="position" data-position-index="41"></button>       
+        </div>  
+        <div id="playerTurn">Red Player's Turn</div>
+        <button id="restartButton" onclick="restartGame()">Restart Game</button>
+    </div>
+    <script src="../scripts/connect4.js"></script>
+    <footer>
+      <p>© 2024 Jesse Reed</p>
+  </body>
+</html>

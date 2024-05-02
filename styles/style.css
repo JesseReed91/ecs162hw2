@@ -1,0 +1,38 @@
+.page-name {
+  text-align: center;
+}
+
+.selection-instructions {
+  text-align: center;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  margin: 20px;
+}
+
+.image-link {
+  display: flex;
+  margin: 0 auto;
+  max-width: 15%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .image-link {
+    max-width: 60%;
+    max-height: auto;
+  }
+  h2 {
+    font-size: 14px;
+  }
+}

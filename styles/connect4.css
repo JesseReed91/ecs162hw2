@@ -1,0 +1,64 @@
+h1,
+h2 {
+  text-align: center;
+  padding: 0;
+  margin: 5px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Creates a 6x7 grid */
+  gap: 10px; /* Space between cells */
+  margin: 20px auto; /* Centering the grid */
+  max-width: 600px;
+  background-color: lightblue;
+}
+
+#playerTurn {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px;
+}
+
+#restartButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.position {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 50%; /* Make cells circular */
+  cursor: pointer;
+  background-color: white;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+
+.position.red {
+  background-color: red;
+}
+
+.position.yellow {
+  background-color: yellow;
+}
+
+@media (max-width: 600px) {
+  #board {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin: 10px auto; /* Centering the grid */
+    max-width: 300px;
+  }
+
+  .position {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+}
